@@ -1,0 +1,95 @@
+.ticket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.bookedTicket{
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    border:  1px solid #dfe3e7;
+}
+
+.topDetails{
+    display: flex;
+}
+
+
+.movieImg{
+    margin-left: 20px;
+    margin-top:20px;
+}
+.details{
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
+.details .language{
+    color:grey;
+    font-size: 90%;
+    margin-top: 2px;
+    font-weight: 600;
+}
+.details .movieName{
+    font-size: 170%;
+    font-weight: 600;
+}
+.details .theatre{
+    margin-top: 30px;
+    color: grey;
+    font-weight: 600;
+}
+.details .time{
+    margin-top: 5px;
+    color: grey;
+    font-weight: 600;
+}
+.movieImg img{
+    height: 250px;
+    width: 200px;
+}
+
+.bottomDetails{
+    display: flex;
+    margin-top: 30px;
+}
+
+.screen{
+    margin-left: 20px;
+}
+.screen .label,
+.seats .label{
+    font-weight: 600;
+    font-size: 90%;
+    color: grey;
+}
+.screen .screenName,
+.seats .seatName{
+    font-weight: 600;
+    font-size: 105%;
+    color: black;
+}
+.seats{
+    margin-left: 150px;
+}
+
+.round{
+    width: 22px;
+    height: 22px;
+}
+
+.showButton{
+    margin-top: 50px;
+}
+
+.showButton button{
+    width: 200px;
+    height: 40px;
+    background-color: #f84464;
+    border:1px solid #f84464;
+    color: white;
+    border-radius: 10px;
+}

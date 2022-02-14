@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.Form{
+    margin: auto;
+    align-items: center;
+    justify-content:center;
+    width: 30%;
+    margin-top: 7%;
+}
+
+.Title{
+    font-size: 150%;
+    font-family: 'Roboto',sans-serif;
+}
+
+.InputClass,
+.InputClass select,
+.submitButtonClass{
+    margin-top: 25px;
+}
+
+.InputClass input,
+.InputClass input,
+.InputClass select{
+    height: 45px;
+    border-radius: 0rem;
+    display: block;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding-left: 5%;
+    font-family: 'Roboto',sans-serif;
+}
+
+.InputClass span{
+    margin-top: 10px;
+    color: #FF6363;
+}
+
+.InputClass input:focus,
+.InputClass input:focus{
+    outline: none;
+    background-color: #D9D7F1;
+    border:1px solid #BAABDA;
+}
+
+.submitButtonClass{
+    margin-top: 40px;
+}
+.submitButtonClass .submitButton{
+    width: 90%;
+    height: 45px;
+    background-color: #FF6363;
+    border:0.5px solid black
+}
+
+.submitButtonClass .submitButton:disabled{
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+.invalid input{
+    background-color: #fddddd;
+    border: 0.5px solid #b40e0e;
+}

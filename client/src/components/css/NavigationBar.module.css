@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navigationBar{
+    display: flex;
+    align-items: center;
+    background-color: #313552;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    z-index: 10;
+    color: black
+}
+
+.navigationBar .searchBar{
+    margin-top: 5px;
+    display: block;
+    align-items: center;
+    flex:1;
+    align-items: center;
+    margin-left: 3%;
+    border: none;
+    position: relative;
+}
+
+.navigationBar .logo{
+    text-align: right;
+    margin-left: 10%;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+
+
+.navigationBar .searchBar input{
+    width:60%;
+    height: 34px !important;
+    display: inline-flex;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    position: relative;
+}
+
+.searchBar .options{
+    position: absolute;
+    width: 64%;
+    box-shadow:rgb(0 0 0 / 20%) 0px 5px 10px;
+    border-radius: 10px;    
+}
+
+.searchBar .options a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.searchBar .options .option{
+    width: 100%;
+    background-color: white;
+    height: 34px !important;
+    border :1px solid rgb(245, 245, 245);
+    text-align: center;
+    font-family: 'Roboto';
+    
+    
+}
+
+.searchBar .options .option:hover{
+    background-color: #DDDDDD;
+    color: inherit;
+
+}
+
+
+.navigationBar .searchIcon{
+
+    background-color: white;
+    border: none !important;
+    height: 34px !important;
+    padding-left: 5px;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 3px;
+}
+
+
+
+.navigationBar .city{
+    margin-top: 5px;
+    flex:0.2;
+}
+
+.navigationBar .user{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navigationBar .user .userImg{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    display: inline-flex;
+}
+.navigationBar .user .authStatus{
+    display: inline-flex;
+    position: absolute;
+    margin-left: 10px;
+    font-family: 'Roboto',sans-serif;
+    top:20%
+}
+.navigationBar .user .logout{
+    margin-left: 140px;
+    display: inline-flex;
+    font-family: 'Roboto',sans-serif;
+    top:20%;
+    position: absolute;
+}
+.navigationBar .user .logout:hover{
+    color: white;
+}
+
+.navigationBar .city .dropdown{
+    height: 20px;
+}
+.navigationBar .city span{
+    font-family: 'Roboto',sans-serif;
+    color: black;
+    margin-bottom: 2px;
+}
+.navigationBar .city span:active{
+    color: white;
+}
+
+.adminLogin{
+    display: inline-flex;
+    margin-left: 100px;
+}
+
+.adminLogin:hover{
+    color: white;
+}

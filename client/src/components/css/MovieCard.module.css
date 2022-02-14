@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.movieCard{
+    display: inline-block;
+    align-items: center;
+    width: 230px;
+    height:450px;
+}
+
+
+
+.movieCard .movieImg{
+    display: inline-block;
+}
+
+
+.movieCard .movieName{
+    margin-top: 10px;
+    font-size: 120%;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+}
+
+.movieCard .movieImg :hover{
+    width: 240px;
+    height: 360px;
+
+}
+
+.movieCard .movieGenre{
+    margin-top: 5px;
+    font-size: 100%;
+    display: block;
+    color:grey;
+    font-family: 'Roboto',sans-serif;
+}
+
+.movieCard .movieImg img{
+    width: 230px;
+    height: 350px;
+    border-radius: 20px;
+}

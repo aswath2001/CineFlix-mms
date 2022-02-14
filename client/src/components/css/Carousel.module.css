@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.showCarousel{
+    height: 450px;
+    margin:auto;
+    width: 80%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.showCarousel a span{
+    background-color: black;
+    border-radius: 50%;
+    background-size: 50%;
+}
+
+.movieOne,
+.movieTwo,
+.movieThree,
+.movieFour,
+.movieFive{
+    display: inline-flex;
+    flex:1;
+    margin-left: 5%;
+}

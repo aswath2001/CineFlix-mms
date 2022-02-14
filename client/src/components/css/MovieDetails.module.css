@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.movieDetails{
+    display: flex;
+}
+
+.movieDetails .movieImage{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.movieDetails .movieImage img{
+    width: 260px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+.movieDetails .movieGenre,
+.movieDetails .movieCertification,
+.movieDetails .movieReleaseDate,
+.movieDetails .movieRunTime,
+.movieDetails .differentiator{
+    display: inline-flex;
+} 
+
+.movieDetails .differentiator{
+    font-size: 250%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10%;
+    color:grey;
+}
+
+
+/* .movieDetails .movieCertification,
+.movieDetails .movieReleaseDate,
+.movieDetails .movieGenre{
+    margin-left: 10px;
+
+} */
+
+.movieDetails .movieName{
+    margin-bottom: 20%;
+}
+
+.movieDetails .movieInfo{
+    display: inline-block;
+    padding-left: 2%;
+    width: 500px;
+    margin-top: 5%;
+    color: white;
+}
+
+.movieDetails .movieLanguage{
+    margin-bottom: 5%;
+}
+
+
+.movieDetails .movieLanguage .language,
+.movieDetails .movieLanguage .format{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    color: #000;
+    border-radius: 10%;
+    font-weight: 500;
+    margin-right: 5%;
+}
+
+.movieDetails .movieTrailer{
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+.movieDetails .bookButton .button{
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(248, 68, 100);
+    border: 0.5px solid rgb(248, 68, 100);
+    color: white;
+}
+
+.aboutMovie{
+    width: 900px;
+    margin-left: 10%;
+    font-family: 'Roboto';
+}
+ 
+.aboutMovie .movieDescription{
+    margin-top: 4%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #ededed;
+}
+
+.aboutMovie .movieDescription .description{
+    margin-top: 2%;
+    
+}
+
+.aboutMovie .movieDescription .about,
+.aboutMovie .movieCast .about,
+.aboutMovie .movieDirector .about{
+    line-height: 1.17;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.aboutMovie .movieCast,
+.aboutMovie .movieDirector{
+    margin-top: 1%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #ededed;
+}
+
+.aboutMovie .movieCast .cast,
+.aboutMovie .movieDirector .director{
+    margin-top: 1%;
+}

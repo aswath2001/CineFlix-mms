@@ -1,0 +1,29 @@
+.seat{
+    display: inline-block;
+    width:25px;
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid #1ea83c;
+    text-align: center;
+    font-size: 60%;
+    padding-top: 3px;
+    color:#1ea83c;
+    border-radius:2px;
+}
+
+.selected,
+.seat:hover{
+    background-color: #1ea83c;
+    color: white;
+}
+
+.spacing{
+    margin-left: 30px;
+}
+
+.blocked,
+.blocked:hover{
+    background-color: #eee;
+    border: 1px solid #eee;
+    color:white;
+}

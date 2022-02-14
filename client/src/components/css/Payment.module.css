@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.orderSummary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.order{
+    width: 450px;
+    border: 1px solid #dfe3e7;
+    margin-top: 5%;
+    padding-bottom: 20px;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    color: #c02c39;
+    font-size: 140%;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.movieName,
+.theatreName,
+.dateName,
+.timeName,
+.screenName,
+.ticketName{
+    margin-top:20px;
+    font-size: 120%;
+    font-family: 'Roboto';
+}
+
+.movieName .movieLabel,
+.theatreName .theatreLabel,
+.dateName .dateLabel,
+.timeName .timeLabel,
+.screenName .screenLabel,
+.ticketName .ticketLabel{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.movieName .movie,
+.theatreName .theatre,
+.dateName .date,
+.timeName .time,
+.screenName .screen,
+.ticketName .ticket{
+    display: inline-block;
+    width:  248px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: grey;
+    word-break: break-all;
+}
+
+
+.button .cancel{
+    width: 224px;
+    height: 40px;
+    background-color: white;
+    border:1px solid #f84464;
+    color:#f84464
+
+}
+.button .payment{
+    width: 224px;
+    height: 40px;
+    background-color: #f84464;
+    border: 1px solid #f84464;
+    color: white;
+}
+
+@media print {
+    .order{
+        margin-left: 20%;
+        margin-top: 35%;
+    }
+    
+}

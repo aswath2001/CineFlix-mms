@@ -1,0 +1,48 @@
+.header{
+    background-color: #1f2533;
+    color: white;
+    padding-top: 2%;
+}
+
+.header .movieName{
+    font-size: 120%;
+    margin-left: 3%;
+}
+
+.header .movieName .ticket{
+    display: block;
+    float: right;
+    margin-right: 5%;
+    border:1px solid white;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.header .movieName .close{
+    float: right;
+    margin-right: 2%;
+}
+
+.header .showDetails{
+    font-size: 90%;
+    margin-top: 5px;
+    margin-left: 3%;
+    color:#c6c6c9;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.header .showDetails .theatre,
+.header .showDetails .date,
+.header .showDetails .time{
+    display: inline-block;
+}
+
+.header .showDetails .date{
+    margin-left: 5px;
+}
+
+.header .showDetails .time{
+    margin-left: 5px;
+}
+
