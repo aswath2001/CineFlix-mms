@@ -19,3 +19,8 @@ In case If you can't open the link , Some snapshots of the pic is attached below
 ![CineFlix - Book Tickets - Google Chrome 13-03-2022 22_01_55](https://user-images.githubusercontent.com/63729506/158069685-22f23fbd-52e6-4ebe-9a7d-116a6b2d455e.png)
 ![CineFlix - Book Tickets - Google Chrome 13-03-2022 22_02_50](https://user-images.githubusercontent.com/63729506/158069692-3ffe6955-c9f6-41ab-abec-9296003bbe7b.png)
 ![CineFlix - Book Tickets - Google Chrome 13-03-2022 22_02_44](https://user-images.githubusercontent.com/63729506/158069696-11dd8260-af08-4363-9963-209f6763749d.png)
+
+
+By 
+Aswath (19PT04)
+KrishnaRaj(19PT11)
