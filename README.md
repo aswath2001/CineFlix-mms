@@ -3,7 +3,7 @@ CineFlix is a Movie management application(Similar to BookMyShow) developed usin
 
 link: https://cineflix-mms.herokuapp.com/
 
-You might get application error on clicking this link.It is because if there is no requests from the server for sometime(3hrs), MySQL database will stop. This problem can be resolved by reloading my server in herokuapp so that it will send request and MYSQL database will start to run. No problem with the code
+You might get application error on clicking this link.It is because if there is no requests from the server for sometime(3hrs), MySQL database will stop. This problem can be resolved by reloading my server in herokuapp so that it will send request and MYSQL database will start to run. No problem with the code.
  
 In case If you can't open the link
 
