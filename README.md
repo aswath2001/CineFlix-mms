@@ -5,7 +5,7 @@ link: https://cineflix-mms.herokuapp.com/
 
 You might get application error on clicking this link.It is because if there is no requests from the server for sometime(3hrs), MySQL database will stop. This problem can be resolved by reloading my server in herokuapp so that it will send request and MYSQL database will start to run. No problem with the code.
  
-In case If you can't open the link
+In case If you can't open the link , Some snapshots of the pic is attached below.
 
 #Here are some Snapshots
 ![CineFlix - Book Tickets - Google Chrome 13-03-2022 21_59_49](https://user-images.githubusercontent.com/63729506/158069649-0c2c2c52-26da-41cc-a44a-0e74b1d96298.png)
