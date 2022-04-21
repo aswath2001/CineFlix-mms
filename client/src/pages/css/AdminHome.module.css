@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.top{
+    display: block;
+    background-color: #313552;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    z-index: 10;
+    color: black
+}
+.title{
+    font-size: 200%;
+    font-weight: 600;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.logout{
+    float: right;
+    margin-right: 200px;
+    font-family: 'Roboto';
+    font-size: 110%;
+    margin-top: 15px;
+}
+
+.logout:hover{
+    color: white;
+}
+
+.option{
+    display: flex;
+    padding-bottom: 2px;
+    border-bottom:  1px solid #dfe3e7;
+}
+.addMovies,
+.addTheatre,
+.addScreen,
+.addShow{
+    display: inline-block;
+    padding: 10px;
+}
+
+.addMovies{
+    margin-left: 10%;
+}
+
+.addTheatre,
+.addScreen,
+.addShow{
+    margin-left: 2%;
+}
+
+.selected{
+    border-bottom: 2px solid red;
+}

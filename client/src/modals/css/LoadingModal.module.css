@@ -1,0 +1,44 @@
+.background{
+    top:0;
+    left:0;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingModal{
+    margin : auto;
+    position: fixed;
+    z-index:100;
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.image{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.image img{
+    width: 290px;
+    height: 190px;
+    border-radius: 30px;
+    background-color: wheat;
+
+}
+
+.spinner{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.spinner div{
+    margin-left: 10px;
+}

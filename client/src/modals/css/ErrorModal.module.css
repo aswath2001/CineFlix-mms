@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.background{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.centered{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    z-index: 10;
+    margin-top: 12%;
+
+}
+
+.errorMsg{
+    position: absolute;
+    display: flex;
+    background-color: #99301a;
+    width: 90%;
+}
+.msg{
+    font-family: 'Roboto',sans-serif;
+    color: rgb(255, 255, 255);
+    white-space: initial;
+    word-wrap: break-word;
+    padding: 10px;
+
+
+}

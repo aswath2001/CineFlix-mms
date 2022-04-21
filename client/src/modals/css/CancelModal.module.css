@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.background{
+    top:0;
+    left:0;
+    z-index: 100;
+    position: fixed;
+    background-color: rgba(0,0,0,0.75);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.cancel{
+    float: right;
+    margin-right: 5%;
+}
+
+.CancelBlock{
+    display: block;
+    background-color: white;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+
+.cancelTicket{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 120%;
+    width: 100%;
+}
+
+.button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cancelButton{
+    margin-left: 5%;
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#f84464;
+    background-color: white;
+    border:1.5px solid #f84464;
+    border-radius: 5px;
+}
+
+.acceptButton{
+    margin-left: 10%;
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#f84464;
+    color: white;
+    border:1.5px solid #f84464;
+    border-radius: 5px;
+}
